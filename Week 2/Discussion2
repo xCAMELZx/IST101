@@ -1,0 +1,28 @@
+Week 2 Questions and Answers: 04/09/2019	
+
+Define ROM (read-only) memory. What is one important difference between ROM and RAM (random access memory)?
+ - Read Only Memory (ROM) is considered a chip that is non-volatile. This means the program stored in this piece of 
+ hardware is permenantly saved. It retains the data even after the computer has been turned off. A good example provided in the text is the computer BIOS (Basic Input/Output System). The BIOS 
+ will never change it's interface unless it has been flashed (modified by the person controlling the computer). ROM is typically 
+used when the computer is being initialized during it's booting process. 
+- The difference between ROM and RAM (Random Access Memory) is whether it is considered volatile or not. Considering ROM is non-volatile
+RAM in this instance, is. Once the computer has been rebooted all the data stored on the RAM is reset. Although RAM is commonly used on 
+the computer's operating system for day to day tasks; When we talk about RAM, we can consider that it has read/write functions whereas 
+ROM only contains read (hence it's name). 
+
+
+What are the general operations of a machine cycle?
+- A general purpose machine contains a CPU which can execute all instructions that the user/system provide it. Considering the general purpose 
+of a CPU is to carry out instructions; we are able to determine the operations that go along with it. The definition in the textbook is, "A machine cycle occurs
+whenever the CPU processes a single piece of information". 
+- These steps include: 
+	1. Fetch -> Tries to retreive the instructions written by the system or the user (like a program) stored in memory (RAM)
+	2. Decode -> The CPU tries to decode the instructions that it was provided into a machine language (ALU/FPU)
+	3. Execute -> It then executes the code (instructions being carried out)
+	4. Store -> Then stores the results in either disk/memory/registers; Depending on what the user requested. 
+
+When we try and load a program. It gets loaded into the RAM for the CPU to fetch the information from. The CPU then reads the information 
+it was provided and execute. Once the instructions have been completed it then stores the information for us. This can be in a variety of ways. 
+Text can be outputed to your screen, A picture that you clicked on could be loaded on your monitor, the word document that your requested to open, finally
+becomes displayed for you to edit. 
+
